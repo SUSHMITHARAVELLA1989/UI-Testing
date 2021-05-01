@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14292" started-at="2021-04-26T12:56:15Z" finished-at="2021-04-26T12:56:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14292" started-at="2021-04-26T12:56:15Z" finished-at="2021-04-26T12:56:29Z">
+      <class name="com.countries.getAllCountries">
+        <test-method status="PASS" signature="getCountrie()[pri:0, instance:com.countries.getAllCountries@27efef64]" name="getCountrie" duration-ms="9948" started-at="2021-04-26T12:56:15Z" finished-at="2021-04-26T12:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountrie -->
+        <test-method status="PASS" signature="getCountrie1()[pri:0, instance:com.countries.getAllCountries@27efef64]" name="getCountrie1" duration-ms="2541" started-at="2021-04-26T12:56:25Z" finished-at="2021-04-26T12:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountrie1 -->
+        <test-method status="PASS" signature="getCountries()[pri:0, instance:com.countries.getAllCountries@27efef64]" name="getCountries" duration-ms="1558" started-at="2021-04-26T12:56:28Z" finished-at="2021-04-26T12:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountries -->
+      </class> <!-- com.countries.getAllCountries -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

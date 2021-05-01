@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="4" skipped="0" total="4">
+<suite duration-ms="264" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="264" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="Customer Operations">
+<test-method duration-ms="1" finished-at="2021-04-07T13:35:50.319Z" name="verify  create new customer" started-at="2021-04-07T13:35:50.310Z" status="PASS"/>
+<test-method duration-ms="4" finished-at="2021-04-07T13:35:50.353Z" name="create multiple customers" started-at="2021-04-07T13:35:50.348Z" status="PASS"/>
+<test-method duration-ms="0" finished-at="2021-04-07T13:35:50.361Z" name="create multiple customers_2" started-at="2021-04-07T13:35:50.359Z" status="PASS"/>
+<test-method duration-ms="2" finished-at="2021-04-07T13:35:50.387Z" name="Create  customers with single scenario" started-at="2021-04-07T13:35:50.383Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
+"name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "you prepare create customer \"Susmitha\",101,\"susmitha2012.ravella@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Susmitha\"",
+                  "offset": 28
+                },
+                {
+                  "val": "101",
+                  "offset": 39
+                },
+                {
+                  "val": "\"susmitha2012.ravella@gmail.com\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.you_prepare_create_customer(java.lang.String,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "send the post call",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.send_the_post_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate 200 response code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_response_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validate \"Success\" message in body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_message_in_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T13:35:50.348Z",
+        "line": 28,
+        "name": "create multiple customers",
+        "description": "",
+        "id": "customer-operations;create-multiple-customers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "you prepare create customer \"susmitha\",\"101\",\"susmitha2012.ravella@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"susmitha\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"101\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"susmitha2012.ravella@gmail.com\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.you_prepare_create_customer1(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "send the post call",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.send_the_post_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "validate 200 response code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_response_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate \"Success\" message in body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_message_in_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T13:35:50.359Z",
+        "line": 29,
+        "name": "create multiple customers",
+        "description": "",
+        "id": "customer-operations;create-multiple-customers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "you prepare create customer \"sruthi\",\"102\",\"sruthi.ravella@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sruthi\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"102\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"sruthi.ravella@gmail.com\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.you_prepare_create_customer1(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "send the post call",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.send_the_post_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "validate 200 response code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_response_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate \"Success\" message in body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_message_in_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T13:35:50.383Z",
+        "line": 32,
+        "name": "Create  customers with single scenario",
+        "description": "",
+        "id": "customer-operations;create--customers-with-single-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "BearER token availble",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.bearer_token_availble()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "create customers with data",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.create_customers_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "id",
+                  "emailid"
+                ]
+              },
+              {
+                "cells": [
+                  "siva",
+                  "103",
+                  "siva2012.ravella@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "sravanthi",
+                  "104",
+                  "sravanthi.ravella@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "send the post call",
+            "match": {
+              "location": "com.rest.ops.steps.EmployeeStepDef.send_the_post_call()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "validate 200 response code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_response_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "validate \"Success\" message in body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.rest.ops.steps.EmployeeStepDef.validate_message_in_body(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@skip"
+          }
+        ]
+      }
+    ],
+    "name": "Customer Operations",
+    "description": "I want to verify create,read,update,delete operations of customer",
+    "id": "customer-operations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/customer/employee.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

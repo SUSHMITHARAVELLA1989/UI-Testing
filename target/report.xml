@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="4" skipped="0" total="4">
+<suite duration-ms="1396" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="1396" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="Customer Operations">
+<test-method duration-ms="1" finished-at="2021-04-24T16:49:37.131Z" name="verify  create new customer" started-at="2021-04-24T16:49:37.118Z" status="PASS"/>
+<test-method duration-ms="2" finished-at="2021-04-24T16:49:37.130Z" name="create multiple customers" started-at="2021-04-24T16:49:37.116Z" status="PASS"/>
+<test-method duration-ms="2" finished-at="2021-04-24T16:49:37.132Z" name="create multiple customers_2" started-at="2021-04-24T16:49:37.124Z" status="PASS"/>
+<test-method duration-ms="5" finished-at="2021-04-24T16:49:37.132Z" name="Create  customers with single scenario" started-at="2021-04-24T16:49:37.117Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
