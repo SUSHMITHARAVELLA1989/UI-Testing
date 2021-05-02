@@ -11,7 +11,7 @@
     Then User enters username with "reachoutsusmitharavella@gmail.com"
     And  Click on Sign in button
     Then Error message displayed
-    And  Error message should contains as "Sorry, thIose details don't match. Check you've typed them correctly."
+    And  Error message should contains as "Sorry, those details don't match. Check you've typed them correctly."
 
  
     Scenario: Login with only  Password
