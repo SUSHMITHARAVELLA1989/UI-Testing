@@ -1,11 +1,11 @@
 #Author: reachoutsusmitharavella@gmail.com
 
-@all
-Feature: Read about all articles related to sports
-  This feature Read about all articles related to sports
+
+   Feature: Read about all articles related to sports
+      This feature Read about all articles related to sports
 
   
-  Scenario: Read all articles related to sports 
+  	Scenario: Read all articles related to sports 
     Given Sports  user is on Home Page 
     When Sports  user login to the application
     Then Search with "sports artile" in the search box

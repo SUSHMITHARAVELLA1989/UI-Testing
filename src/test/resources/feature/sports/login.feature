@@ -1,8 +1,8 @@
 #Author: reachoutsusmitharavella@gmail.com
 
 @all
-Feature: Login Action
-  This feature will test  all nagative scenarios for Login
+	Feature: Login Action
+     This feature will test  all nagative scenarios for Login
 
  
    	Scenario: Login with only  Username
@@ -11,10 +11,10 @@ Feature: Login Action
     Then User enters username with "reachoutsusmitharavella@gmail.com"
     And  Click on Sign in button
     Then Error message displayed
-    And  Error message should contains as "Sorry, those details don't match. Check you've typed them correctly."
+    And  Error message should contains as "Sorry, thIose details don't match. Check you've typed them correctly."
 
  
-   Scenario: Login with only  Password
+    Scenario: Login with only  Password
     Given User is on Home Page 
     When User navigate to Login Page
     Then User enters Password with "Susmitha@02091989"
@@ -31,7 +31,7 @@ Feature: Login Action
     Then Error message displayed
     And  Error message should contains as "Sorry, those details don't match. Check you've typed them correctly."
 
-	Scenario: Login with  wrong username and correct password
+	  Scenario: Login with  wrong username and correct password
     Given User is on Home Page 
     When User navigate to Login Page
     Then User enters username with "reachoutsusitharavell@gmail.com"
@@ -40,7 +40,7 @@ Feature: Login Action
     Then Error message displayed
     And  Error message should contains as "Sorry, we can’t find an account with that email"
 
-	Scenario: Login with  correct username and wrong password
+	  Scenario: Login with  correct username and wrong password
     Given User is on Home Page 
     When User navigate to Login Page
     Then User enters username with "reachoutsusmitharavella@gmail.com"
